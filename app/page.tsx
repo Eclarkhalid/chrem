@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Features from "./components/Features";
 import About from "./components/About";
 import Pricing from "./components/Pricing";
+import Reviews from "./components/Reviews";
 
 export default function Home() {
   return <>
@@ -32,6 +33,10 @@ export default function Home() {
 
     <section className=" w-full max-md:py-12 my-20 mx-auto border rounded-lg">
       <Pricing />
+    </section>
+
+    <section className=" w-full max-md:py-12 my-20 mx-auto border rounded-lg">
+      <Reviews />
     </section>
   </>
 }
