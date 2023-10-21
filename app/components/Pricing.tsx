@@ -4,6 +4,9 @@ import Link from "next/link";
 const Pricing = () => {
   return <>
     <div className="max-w-screen-2xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+      <h2 className="text-3xl font-bold sm:text-4xl my-3">
+        Pricing
+      </h2>
       <div
         className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:items-stretch md:grid-cols-3 md:gap-8"
       >
