@@ -1,6 +1,9 @@
+import { services } from "@/constants";
+import Image from "next/image";
+
 const Reviews = () => {
   return <>
-  
+
     <link
       href="https://cdn.jsdelivr.net/npm/keen-slider@6.8.6/keen-slider.min.css"
       rel="stylesheet"
@@ -24,48 +27,12 @@ const Reviews = () => {
               veritatis illo placeat harum porro optio fugit a culpa sunt id!
             </p>
 
-            <div className="hidden lg:mt-8 lg:flex lg:gap-4">
-              <button
-                aria-label="Previous slide"
-                id="keen-slider-previous-desktop"
-                className="rounded-full border border-slate-600 p-3 text-slate-600 transition hover:bg-slate-600 hover:text-white"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  className="h-5 w-5 rtl:rotate-180"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M15.75 19.5L8.25 12l7.5-7.5"
-                  />
-                </svg>
-              </button>
-
-              <button
-                aria-label="Next slide"
-                id="keen-slider-next-desktop"
-                className="rounded-full border border-slate-600 p-3 text-slate-600 transition hover:bg-slate-600 hover:text-white"
-              >
-                <svg
-                  className="h-5 w-5 rtl:rotate-180"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M9 5l7 7-7 7"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                  />
-                </svg>
-              </button>
+            <div className="flex gap-8 items-center  mt-10">
+              {services.map((service) => (
+                <div key={service.label}>
+                  <Image src={service.img} alt={service.label} width={40} height={40} className="font-bold" />
+                </div>
+              ))}
             </div>
           </div>
 
