@@ -135,7 +135,7 @@ const Reviews = () => {
 
                     <div className="mt-4">
                       <p className="text-2xl font-bold text-slate-600 sm:text-3xl">
-                        Stayin' Alive
+                        Staying Alive
                       </p>
 
                       <p className="mt-4 leading-relaxed text-gray-700">
@@ -217,7 +217,7 @@ const Reviews = () => {
 
                     <div className="mt-4">
                       <p className="text-2xl font-bold text-slate-600 sm:text-3xl">
-                        Stayin' Alive
+                        Staying Alive
                       </p>
 
                       <p className="mt-4 leading-relaxed text-gray-700">
@@ -299,7 +299,7 @@ const Reviews = () => {
 
                     <div className="mt-4">
                       <p className="text-2xl font-bold text-slate-600 sm:text-3xl">
-                        Stayin' Alive
+                        Staying Alive
                       </p>
 
                       <p className="mt-4 leading-relaxed text-gray-700">
