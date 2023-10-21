@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { UserButton } from "@clerk/nextjs";
 import Link from "next/link";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return <>
@@ -19,6 +20,10 @@ export default function Home() {
       <h2 className="text-3xl font-bold sm:text-4xl">
         The contents of this page have gone fishing. Please come back when they return.
       </h2>
+    </section>
+
+    <section className=" w-full max-md:py-12 my-20 mx-auto  rounded-lg">
+      <Footer />
     </section>
   </>
 }
