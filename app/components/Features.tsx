@@ -22,7 +22,7 @@ const Features = () => {
                       <CardHeader className=' flex justify-center items-center  rounded-full'>
                           <Image src={service.img} alt={service.label} width={40} height={40} className="font-bold" />
                       </CardHeader>
-                      <CardTitle className="font-bold text-2xl">
+                      <CardTitle className="font-bold text-2xl my-2">
                         {service.label}
                       </CardTitle>
                       <CardContent>

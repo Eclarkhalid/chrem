@@ -5,17 +5,17 @@ import img3 from '../public/video.png'
 export const services = [
   {
     img: img1,
-    label: "Fast Recipe Delivery",
-    subtext: "Enjoy seamless shopping with our fast and reliable recipe delivery service."
+    label: "ChatGPT 4 Blog Summarization",
+    subtext: "Simplify your reading with Summize, an open-source article summarizer that transforms lengthy articles into clear and concise summaries."
   },
   {
     img: img2,
     label: "Recipe Inspiration",
-    subtext: "Discover new and exciting recipes to try, curated by our team of culinary experts."
+    subtext: "Explore a world of global flavors with our API-powered recipe search. From Italian pasta to Indian curry, discover diverse culinary delights."
   },
   {
     img: img3,
-    label: "Dedicated Support",
-    subtext: "Our dedicated team is here to assist you with any recipe questions or needs you may have."
+    label: "Movie Quest",
+    subtext: "Search by title, genre, or actors to discover information like year, cast, and Movie title. It's your one-stop movie resource."
   },
 ];
