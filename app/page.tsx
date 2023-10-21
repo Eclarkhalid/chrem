@@ -21,7 +21,7 @@ export default function Home() {
       <Hero />
     </section>
 
-    <section className="w-full max-md:py-12 py-10 mx-auto ">
+    <section className="w-full max-md:py-12 py-10 mx-auto border rounded-lg ">
     <Features />
     </section>
   </>
