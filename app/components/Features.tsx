@@ -18,7 +18,7 @@ const Features = () => {
                 </p>
                 <div className="flex justify-center flex-wrap gap-9 p-6">
                     {services.map((service) => (
-                      <Card className='flex-1 sm:w-[350px] sm:min-w-[350px] w-full rounded-[20px] shadow-3xl px-10 py-8 bg-gray-200'>
+                      <Card key={service.label} className='flex-1 sm:w-[350px] sm:min-w-[350px] w-full rounded-[20px] shadow-3xl px-10 py-8 bg-gray-200'>
                         <CardHeader className="font-bold text-2xl">
                           {service.label}
                         </CardHeader>
