@@ -1,5 +1,5 @@
 import Image from "next/image";
-import banner from '../../assets/banner.png'
+import banner from '../../assets/banner.jpg'
 
 const About = () => {
   return <>
