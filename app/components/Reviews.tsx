@@ -19,7 +19,7 @@ const Reviews = () => {
         >
           <div className="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              Don't just take our word for it...
+              Do not just take our word for it...
             </h2>
 
             <p className="mt-4 text-gray-700">
