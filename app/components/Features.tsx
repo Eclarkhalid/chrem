@@ -18,14 +18,14 @@ const Features = () => {
                 </p>
                 <div className="flex justify-center flex-wrap gap-9 py-6">
                   {services.map((service) => (
-                    <Card key={service.label} className='flex-1 sm:w-[300px] sm:min-w-[300px] w-full rounded-[20px] shadow-3xl px-10 py-8 bg-gray-200'>
+                    <Card key={service.label} className='flex-1 sm:w-[300px] sm:min-w-[300px] w-full rounded-[20px] shadow-3xl px-10 py-8 bg-gray-200 hover:translate-y-2 transition-shadow'>
                       <CardHeader className=' flex justify-center items-center  rounded-full'>
                           <Image src={service.img} alt={service.label} width={40} height={40} className="font-bold" />
                       </CardHeader>
                       <CardTitle className="font-bold text-2xl my-2">
                         {service.label}
                       </CardTitle>
-                      <CardContent>
+                      <CardContent className=" text-zinc-500">
                         {service.subtext}
                       </CardContent>
                     </Card>

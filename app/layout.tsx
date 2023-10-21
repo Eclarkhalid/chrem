@@ -13,12 +13,15 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
-        <body className='bg-background'>
-          <div className="max-container app">
-            {/* <Header /> */}
-            {children}
-            {/* <Footer /> */}
-          </div>
+        <body>
+          <main >
+            <div className='main'>
+              <div className="gradient" />
+            </div>
+            <div className="app">
+              {children}
+            </div>
+          </main>
         </body>
       </html>
     </ClerkProvider>

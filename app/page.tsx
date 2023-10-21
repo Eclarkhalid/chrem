@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Hero from "./components/Hero";
 import Features from "./components/Features";
+import About from "./components/About";
 
 export default function Home() {
   return <>
@@ -21,8 +22,9 @@ export default function Home() {
       <Hero />
     </section>
 
-    <section className="w-full max-md:py-12 py-10 mx-auto border rounded-lg ">
+    <section >
     <Features />
     </section>
+    <About />
   </>
 }
