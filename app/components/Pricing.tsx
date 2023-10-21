@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const Pricing = () => {
   return <>
@@ -27,7 +28,9 @@ const Pricing = () => {
               <span className="text-sm font-medium text-gray-700">/month</span>
             </p>
 
-            <Button className="my-4 w-full" >Get Started</Button>
+            <Link href={'/protect'}>
+              <Button className="my-4 w-full" >Get Started</Button>
+            </Link>
           </div>
 
           <div className="p-6 sm:px-8">
@@ -99,7 +102,9 @@ const Pricing = () => {
               <span className="text-sm font-medium text-gray-700">/month</span>
             </p>
 
-            <Button className="my-4 w-full">Get Started</Button>
+            <Link href={'/protect'}>
+              <Button className="my-4 w-full">Get Started</Button>
+            </Link>
           </div>
 
           <div className="p-6 sm:px-8">
@@ -171,7 +176,10 @@ const Pricing = () => {
               <span className="text-sm font-medium text-gray-700">/month</span>
             </p>
 
-            <Button className="my-4 w-full">Get Started</Button>
+            <Link href={'/protect'}>
+              <Button className="my-4 w-full">Get Started</Button>
+            </Link>
+
           </div>
 
           <div className="p-6 sm:px-8">
