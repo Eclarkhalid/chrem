@@ -3,6 +3,7 @@ import Link from "next/link";
 import Hero from "./components/Hero";
 import Features from "./components/Features";
 import About from "./components/About";
+import Pricing from "./components/Pricing";
 
 export default function Home() {
   return <>
@@ -22,9 +23,15 @@ export default function Home() {
       <Hero />
     </section>
 
-    <section >
-    <Features />
+    <section className="w-full max-md:py-12 py-2 mx-auto border rounded-lg bg-gray-900 text-white ">
+      <Features />
     </section>
-    <About />
+    <section className="shadow-xl w-full max-md:py-12 my-20 mx-auto border rounded-lg">
+      <About />
+    </section>
+
+    <section className=" w-full max-md:py-12 my-20 mx-auto border rounded-lg">
+      <Pricing />
+    </section>
   </>
 }
