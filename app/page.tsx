@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Hero from "./components/Hero";
+import Features from "./components/Features";
 
 export default function Home() {
   return <>
@@ -16,8 +17,12 @@ export default function Home() {
         <Button variant={'outline'}>Create Account</Button>
       </Link>
     </header>
-    <section className="w-full min-h-screen max-md:py-12 py-20 2xl:py-48 mx-auto">
+    <section className="w-full max-md:py-12 py-20 2xl:py-32 mx-auto ">
       <Hero />
     </section>
+
+    <Features />
+
+
   </>
 }

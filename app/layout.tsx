@@ -13,7 +13,7 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
-        <body className='bg-background-color'>
+        <body className='bg-background'>
           <div className="max-container app">
             {/* <Header /> */}
             {children}
