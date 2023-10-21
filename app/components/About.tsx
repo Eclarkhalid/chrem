@@ -17,21 +17,13 @@ const About = () => {
           </div>
 
           <div className="lg:py-16">
-            <article className="space-y-4 text-gray-600">
+            <article className="space-y-4 text-gray-600 text-md font-medium leading-8">
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui
-                hic atque tenetur quis eius quos ea neque sunt, accusantium soluta
-                minus veniam tempora deserunt? Molestiae eius quidem quam repellat.
+                Embark on a seamless journey of information and entertainment as our platform brings you everything you need in one place. Utilizing the cutting-edge OpenAI GPT-4 technology, we offer a unique and intelligent solution to summarize blogs, allowing you to digest information effortlessly.
               </p>
 
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum
-                explicabo quidem voluptatum voluptas illo accusantium ipsam quis,
-                vel mollitia? Vel provident culpa dignissimos possimus, perferendis
-                consectetur odit accusantium dolorem amet voluptates aliquid,
-                ducimus tempore incidunt quas. Veritatis molestias tempora
-                distinctio voluptates sint! Itaque quasi corrupti, sequi quo odit
-                illum impedit!
+                Dive into a culinary adventure with our API-powered recipe search, unlocking a world of global flavors right at your fingertips. Whether you're a cooking enthusiast or simply looking for new tastes, our comprehensive recipe search ensures that you discover delightful dishes from around the globe. And for movie enthusiasts, our platform serves as the ultimate one-stop resource. Easily find information about your favorite movies, explore new releases, and stay up-to-date with the cinematic world. With a user-friendly interface and powerful features, we provide a centralized hub for your diverse needs, making information retrieval and entertainment exploration a seamless and enjoyable experience.
               </p>
             </article>
           </div>

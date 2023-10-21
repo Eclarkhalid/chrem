@@ -6,6 +6,7 @@ import About from "./components/About";
 import Pricing from "./components/Pricing";
 import Reviews from "./components/Reviews";
 import Footer from "./components/Footer";
+import Stats from "./components/Stats";
 
 export default function Home() {
   return <>
@@ -23,6 +24,10 @@ export default function Home() {
     </header>
     <section className="w-full max-md:py-12 py-20 2xl:py-32 mx-auto ">
       <Hero />
+    </section>
+
+    <section className="shadow-xl w-full max-md:py-12 mb-20 mx-auto border rounded-lg">
+      <Stats />
     </section>
 
     <section className="w-full max-md:py-12 py-2 mx-auto border rounded-lg bg-gray-900 text-white ">
