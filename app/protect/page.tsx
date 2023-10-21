@@ -16,7 +16,9 @@ export default function Home() {
     </header>
 
     <section className="w-full min-h-screen max-md:py-12 py-20 2xl:py-48 mx-auto">
-      Hello User
+      <h2 className="text-3xl font-bold sm:text-4xl">
+        The contents of this page have gone fishing. Please come back when they return.
+      </h2>
     </section>
   </>
 }
