@@ -6,7 +6,7 @@ const Features = () => {
     <div>
       <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48  rounded-lg">
         <div className="container px-4 md:px-6 ">
-          <div className="grid gap-6 items-center max-md:my-8">
+          <div className="grid gap-6 items-center max-md:my-4">
             <div className="flex flex-col justify-center space-y-8 text-center">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none ">
@@ -17,7 +17,7 @@ const Features = () => {
                 </p>
                 <div className="flex justify-center flex-wrap gap-9 p-6">
                   {services.map((service) => (
-                    <Card key={service.label} className='flex-1 sm:w-[300px] sm:min-w-[300px] w-full rounded-[20px] shadow-3xl px-10 py-8 bg-gray-200'>
+                    <Card key={service.label} className='flex-1 sm:w-[300px] sm:min-w-[300px] w-full rounded-[20px] shadow-3xl px-10 max-sm:px-2 py-8 bg-gray-200'>
                       <CardHeader className="font-bold text-2xl">
                         {service.label}
                       </CardHeader>
