@@ -5,6 +5,7 @@ import Features from "./components/Features";
 import About from "./components/About";
 import Pricing from "./components/Pricing";
 import Reviews from "./components/Reviews";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return <>
@@ -31,12 +32,16 @@ export default function Home() {
       <About />
     </section>
 
-    <section className=" w-full max-md:py-12 my-20 mx-auto border rounded-lg">
+    <section className=" w-full max-md:py-12 my-20 mx-auto border border-gray-500 rounded-lg">
       <Pricing />
     </section>
 
-    <section className=" w-full max-md:py-12 my-20 mx-auto border rounded-lg">
+    <section className=" shadow-xl w-full max-md:py-12 my-20 mx-auto border rounded-lg">
       <Reviews />
+    </section>
+
+    <section className=" w-full max-md:py-12 my-20 mx-auto border border-gray-500 rounded-lg">
+      <Footer />
     </section>
   </>
 }
