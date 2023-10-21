@@ -23,7 +23,7 @@ const About = () => {
               </p>
 
               <p>
-                Dive into a culinary adventure with our API-powered recipe search, unlocking a world of global flavors right at your fingertips. Whether you're a cooking enthusiast or simply looking for new tastes, our comprehensive recipe search ensures that you discover delightful dishes from around the globe. And for movie enthusiasts, our platform serves as the ultimate one-stop resource. Easily find information about your favorite movies, explore new releases, and stay up-to-date with the cinematic world. With a user-friendly interface and powerful features, we provide a centralized hub for your diverse needs, making information retrieval and entertainment exploration a seamless and enjoyable experience.
+                Dive into a culinary adventure with our API-powered recipe search, unlocking a world of global flavors right at your fingertips. Whether you are a cooking enthusiast or simply looking for new tastes, our comprehensive recipe search ensures that you discover delightful dishes from around the globe. And for movie enthusiasts, our platform serves as the ultimate one-stop resource. Easily find information about your favorite movies, explore new releases, and stay up-to-date with the cinematic world. With a user-friendly interface and powerful features, we provide a centralized hub for your diverse needs, making information retrieval and entertainment exploration a seamless and enjoyable experience.
               </p>
             </article>
           </div>

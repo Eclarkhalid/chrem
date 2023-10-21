@@ -105,7 +105,7 @@ const Reviews = () => {
                 </p>
 
                 <p className="mt-4 leading-relaxed text-gray-700">
-                  This platform is a game-changer! OpenAI GPT-4's blog summarization feature is a time-saving marvel, and the recipe search has opened up a world of culinary delights. Movie buffs like me will love the convenience of a one-stop movie resource. A must-try for anyone seeking a seamless blend of information and entertainment."
+                  This platform is a game-changer! OpenAI GPT-4 blog summarization feature is a time-saving marvel, and the recipe search has opened up a world of culinary delights. Movie buffs like me will love the convenience of a one-stop movie resource. A must-try for anyone seeking a seamless blend of information and entertainment.
                 </p>
               </div>
             </div>
@@ -182,7 +182,7 @@ const Reviews = () => {
                 </p>
 
                 <p className="mt-4 leading-relaxed text-gray-700">
-                  Incredible versatility! OpenAI GPT-4's blog summarization is spot-on, making it my go-to for quick and accurate information. The recipe search is a hidden gem; I've discovered and mastered unique global flavors. The movie quest feature is the cherry on top – all my movie needs met in one place. Truly a personal assistant for intellect and entertainment!
+                  Incredible versatility! OpenAI GPT-4 blog summarization is spot-on, making it my go-to for quick and accurate information. The recipe search is a hidden gem; I have discovered and mastered unique global flavors. The movie quest feature is the cherry on top – all my movie needs met in one place. Truly a personal assistant for intellect and entertainment!
                 </p>
               </div>
             </div>
@@ -259,7 +259,7 @@ const Reviews = () => {
                 </p>
 
                 <p className="mt-4 leading-relaxed text-gray-700">
-                  Thrilled with this platform! OpenAI GPT-4 simplifies my life with its precise blog summaries. The recipe search has turned my kitchen into a global culinary journey. Movie enthusiasts will love the consolidated movie resource. Major kudos to the developers for creating a user-friendly tool that's become an essential part of my daily routine.
+                  Thrilled with this platform! OpenAI GPT-4 simplifies my life with its precise blog summaries. The recipe search has turned my kitchen into a global culinary journey. Movie enthusiasts will love the consolidated movie resource. Major kudos to the developers for creating a user-friendly tool that hass become an essential part of my daily routine.
                 </p>
               </div>
             </div>
