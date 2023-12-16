@@ -16,7 +16,7 @@ const Cards = () => {
               <h1 className="font-bold text-2xl">ChatGPT 4 Summarize</h1>
             </div>
 
-            <Link href={'https://ericgitau-summarize-ai-app.netlify.app/'} className="text-lg font-medium text-gray-900">
+            <Link href={'https://article-summarizer-eclarkhalid.vercel.app/'} className="text-lg font-medium text-gray-900">
               Enter a Url for a blogs website to summarize. Number of requests are limited for your current plan.
             </Link>
 
